@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# raw/processed data — large, fetched via script, don't commit
+data/raw/
+data/processed/
+*.csv
+*.zip
+
+# kaggle credentials must never be committed
+kaggle.json
+
+.ipynb_checkpoints/
+.pytest_cache/

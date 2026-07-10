@@ -1,0 +1,29 @@
+﻿name: fraud_d
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scikit-learn
+  - shap
+  - xgboost
+  - lightgbm
+  - catboost
+  - networkx
+  - matplotlib
+  - seaborn
+  - ipykernel
+  - jupyter
+  - faker
+  - pip
+  - conda-forge::kaggle
+  - pip:
+    - langchain
+    - langgraph
+    - langchain-community
+    - ollama
+    - evidently
+    - missingno
+    - pytest
